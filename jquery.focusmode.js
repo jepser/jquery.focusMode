@@ -57,7 +57,6 @@
         plugin = ev.data.plugin,
         offset = plugin.animationOffset()
 
-      // console.log(plugin)
       $.each(ev.data.elements, function (i, v) {
         var element = {
           top: $(v).offset().top,
@@ -90,8 +89,6 @@
 
     if (method) {
       var focusMode = []
-
-      console.log(method, $(this).data())
 
       var instance = $(this).data('focusmode')
       if (instance) {

@@ -1,0 +1,22 @@
+{
+  "name": "jquery-focusmode",
+  "description": "jQuery plugin for focus on targets that are in the viewport",
+  "main": [
+    "jquery.focusmode.js",
+  ],
+  "keywords": [
+    "jquery",
+    "inview",
+    "focusmode"
+  ],
+  "authors": [
+    "Jepser Bernardino <jepsersk8@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+  ],
+  "private": false
+}
