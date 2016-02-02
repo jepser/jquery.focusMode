@@ -7,8 +7,8 @@ $(someselector).focusMode(options)
 
 - target: element(s) to target and add the effect (classes)
 - classes:
--- body: 'is-focus-active'
--- container: 'focus-container'
--- element: 'focus-target'
+ - body: 'is-focus-active'
+ - container: 'focus-container'
+ - element: 'focus-target'
 - offsetIn: '0%' offset from the bottom to activate the class
 - offsetOut: '0%' offset from the top to activate the class
